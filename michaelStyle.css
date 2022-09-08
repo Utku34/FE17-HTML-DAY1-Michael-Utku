@@ -1,6 +1,6 @@
-/* .headline1 {
-    color: black;
-    font-size: 18px;
+.headline1 {
+    color: wihte;
+    font width: 25px;
 }
 .textline{
     color:green;
@@ -36,4 +36,9 @@ span {
 body {
     background-image: url("OIP.jpg");
     background-size: cover;
+}
+.course{
+    backround color: red;
+    
+
 }
