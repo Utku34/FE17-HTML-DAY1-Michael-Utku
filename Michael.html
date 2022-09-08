@@ -15,33 +15,39 @@ Hide the paragraph from a right class NOT keeping its space on the dom.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/michaelStyle.css">
+    <style>
 
-<style>
+        @keyframes blinking {
+                0% {
+                  background-color: #06c3d1;
+                  border: 3px solid #666;
+                }
+                100% {
+                  background-color: #270da6;
+                  border: 3px solid #666;
+                }
+              }
+              #blink {
+                width: 200px;
+                height: 200px;
+                animation: blinking 1s infinite;
+              }
+        
+        
+        </style>
 
-@keyframes blinking {
-        0% {
-          background-color: #06c3d1;
-          border: 3px solid #666;
-        }
-        100% {
-          background-color: #270da6;
-          border: 3px solid #666;
-        }
-      }
-      #blink {
-        width: 200px;
-        height: 200px;
-        animation: blinking 1s infinite;
-      }
-
-
-</style>
-<div id="blink">THIS IS A SAMSUMG WEBSITE</div>
 
 </head>
-<h3 class="headline1">This a Samsung Webseite</h3>
 <body>
-    
+       
+<!-- <div class ="Hintergrundbild" >
+    <img class= "Staubwolke" src="OIP.jpg">
+</div> -->
+
+<h3 class="headline1">This a Samsung Webseite</h3>
+
+
+<div id="blink">THIS IS A SAMSUMG WEBSITE</div> 
     <h4 class = "Titel" UTKU TURIK IST SUper> </h4>
     <div> <p class = "textline"> Leistungsstarke und kosteneffiziente PCIe 3.0 NVMe™ SSD für Gaming und Alltagsanwendungen
         Moderne V-NAND Speichertechnologie im kompakten M.2-Formfaktor (2280)

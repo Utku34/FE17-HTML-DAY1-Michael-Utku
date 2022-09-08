@@ -1,5 +1,5 @@
-.headline1 {
-    color: brown;
+/* .headline1 {
+    color: black;
     font-size: 18px;
 }
 .textline{
@@ -7,7 +7,6 @@
     font-size: 20px;
 
 }
-<style>
 .blink {
   width: 220px;
   height: 50px;
@@ -32,14 +31,9 @@ span {
   100% {
     opacity: 1;
   }
+} */
+
+body {
+    background-image: url("OIP.jpg");
+    background-size: cover;
 }
-</style>
-</head>
-<body>
-<div class="blink">
-    </style>
-  </head>
-  <body>
-    Here is a <span class="blink">blinking</span> text.
-  </body>
-</html>
