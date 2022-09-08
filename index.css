@@ -12,7 +12,6 @@
 }
 
 body {
-  padding-bottom: 2000px;
   background-color: rgb(39, 39, 39);
 }
 
@@ -76,6 +75,7 @@ body {
   transition: 0.6s;
   border-width: 0ox;
   color: black;
+  margin-bottom: 100px;
 }
 
 .box4:hover {
@@ -85,4 +85,81 @@ body {
   transition: 0.6s;
   box-shadow: 1px 1px 30px 1px rgb(25, 70, 193);
   color: rgb(25, 70, 193);
+}
+
+.logo8 {
+  max-width: 70px;
+  max-height: 70px;
+  margin-top: 15px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.footer {
+  background-color: rgb(48, 45, 60);
+  border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: 1000px;
+
+  height: 100px;
+}
+
+.p22 {
+  font-family: arial, roboto;
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-right: 1100px;
+  font-weight: 300;
+}
+
+.yt {
+  margin-left: 70px;
+}
+
+.middle-section {
+  display: inline-block;
+  margin-right: 800px;
+  padding-right: 100px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: 0.6s ;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 20px;
+  border-style: solid;
+
+
+}
+
+.middle-section:hover {
+  transition: 0.6s;
+
+  box-shadow: 1px 1px 30px 5px rgb(25, 70, 193);
+  margin-left: 100px;
+}
+
+.Title2 {
+color: white;
+font-size: 60px;
+font-family: arial,roboto;
+letter-spacing: 8px;
+font-weight: 600;
+text-align: center;
+transition: 0.6s;
+
+
+
+}
+
+
+
+.Title2:hover {
+letter-spacing: 15px;
+transition: 0.4s;
+color: rgb(25, 70, 193);
+
+
+
 }
