@@ -1,0 +1,45 @@
+.headline1 {
+    color: brown;
+    font-size: 18px;
+}
+.textline{
+    color:green;
+    font-size: 20px;
+
+}
+<style>
+.blink {
+  width: 220px;
+  height: 50px;
+  background-color: #342ab8;
+  padding: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+span {
+  font-size: 26px;
+  font-family: cursive;
+  color: #fff;
+  animation: blink 2s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
+</head>
+<body>
+<div class="blink">
+    </style>
+  </head>
+  <body>
+    Here is a <span class="blink">blinking</span> text.
+  </body>
+</html>
