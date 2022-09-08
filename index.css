@@ -1,0 +1,22 @@
+.headerbox {
+border-color: rgb(63, 56, 95);
+border-radius: 20px;
+border-width: 1px;
+border-style: solid;
+position: fixed;
+right: 0px;
+left: 0px;
+height: 80px;
+background-color: rgb(63, 56, 95);
+}
+
+body {
+padding-bottom: 2000px;
+
+}
+
+.img1 {
+max-width: 100px;
+max-height: 50px;
+
+}
